@@ -1,7 +1,7 @@
 function getFormvalue(){
 const Formele = document.getElementById("form1");
-const name = Formele.elements['fname'].value;
+const fname = Formele.elements['fname'].value;
 const lname = Formele.elements['lname'].value;
-alert(`${name} ${lname}`);
+alert(`${fname} ${lname}`);
 	
 }
